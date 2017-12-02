@@ -6,12 +6,33 @@
 	text-align: center;
 	background: #233257;
 	color: white;
+	font-size: 35px;
 }
 
-.container {
+
+.panel-heading {
+	font-weight: bold;
+	font-size: 15px;
+}	
+
+#panel-heading {
+	color: white;
+	background-color: darkslategray;
 
 }
 
-.paner-heading {
-	font-weight:bold ;
+.form-control {
+	width: 98%;
+	margin: auto;
+}
+
+label {
+	padding-left: 10px;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.btn {
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
