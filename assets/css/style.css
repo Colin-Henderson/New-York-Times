@@ -4,10 +4,14 @@
 
 .jumbotron {
 	text-align: center;
-	background: #0e2f44;
+	background: #233257;
 	color: white;
 }
 
 .container {
 
+}
+
+.paner-heading {
+	font-weight:bold ;
 }

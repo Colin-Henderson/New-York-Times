@@ -4,28 +4,63 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+  <body>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+          <div class="col-md-12">
+              <i id="paper" class="fa fa-newspaper-o" aria-hidden="true"> New York Times Search</i>
+          </div>
+      </div>
+    </div>
+  </div>
 <div class="container">
-<div class="jumbotron">
-  <div class="row">
-    <div class="col-md-4">
-  <i id="paper" class="fa fa-newspaper-o" aria-hidden="true"></i>
+  <div class="panel panel-default">
+    <div class="panel-heading">Search Parameter</div>
+      <form>
+        <div class="form-group">
+          <label for="searchterm">Search Term:</label>
+          <input type="text" class="form-control" id="searchterm">
+        </div>
+        <div class="form-group">
+            <label for="records">Number of Records to Retrieve:</label>
+            <select class="form-control" id="records">
+            <option>5</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="year1">Start Year (Optional):</label>
+          <input type="text" class="form-control" id="year1">
+        </div>
+        <div class="form-group">
+          <label for="endyear">End Year (Optional):</label>
+          <input type="text" class="form-control" id="endyear">
+        </div>
+        <div>
+            <input type="submit" class="btn btn-info" value="Search">
+            <button type="button" class="btn btn-info">Clear Results</button>
+        </div>
+      </form>
+  </div>
 </div>
-<div class="col-md-8">
-  <h1 class="display-3">New York Times</h1>
-</div>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  </p>
-</div>
+      <div class="container">
+        <div class="panel panel-default">
+          <div class="panel-heading">Top Articles</div>
+        </div>
+      </div>
 
 
 	
 
-<script src="https://use.fontawesome.com/570ea30d1a.js"></script>
+    <script src="https://use.fontawesome.com/570ea30d1a.js"></script>
 
-</body>
+  </body>
 </html>
